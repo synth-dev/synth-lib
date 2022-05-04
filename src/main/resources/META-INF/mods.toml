@@ -1,0 +1,24 @@
+modLoader = "kotlinforforge"
+loaderVersion = "[3,)" # Require at least 3.x
+license = 'LGPL'
+[[mods]]
+modId = "synthlib"
+version = "1.0.0"
+displayName = "Synth-Library"
+credits = "doozyz"
+authors = "doozyz"
+description = '''
+The main api library for all synth mods.
+'''
+[[dependencies.synthlib]]
+modId = "forge"
+mandatory = true
+versionRange = "[40.1.0]"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.synthlib]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.18.2]"
+ordering = "NONE"
+side = "BOTH"
