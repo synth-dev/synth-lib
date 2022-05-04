@@ -10,7 +10,7 @@ synth {
         modid = "synthlib"
         displayName = "Synth-Library"
         author = "doozyz"
-        group = "com.github.synth"
+        group = "com.github.synth.lib"
         version = "1.0.0"
         description = """
             The main api library for all synth mods.
